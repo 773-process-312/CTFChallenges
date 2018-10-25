@@ -17,7 +17,7 @@ So, you can see that we are able to run `find` as root.
 There is a website called GTFOBins[1] that lists ways to abuse common unix
 commands.
 
-The page for `find`[2]` lists the following command for breaking out of restricted
+The page for `find`[2] lists the following command for breaking out of restricted
 shells, which is valid for this case:
 
 ```

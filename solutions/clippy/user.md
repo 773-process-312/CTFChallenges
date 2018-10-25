@@ -37,7 +37,7 @@ Nmap done: 1 IP address (1 host up) scanned in 7.94 seconds
 Investigating the service on port 5000 returns a pastebin clone.
 
 When we paste something, we get redirected to our paste, which has a numeric id
-in the URL. If we modify the URL we found a paste with the ID of 5
+in the URL. If we modify the URL we find a paste with the ID of 5
 (URL: `http://10.10.2.3:5000/note/5`) that contains login credentials.
 
 ```
