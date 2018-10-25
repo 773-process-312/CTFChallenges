@@ -1,0 +1,7 @@
+{
+    "host":"127.0.0.1",
+    "port":6379,
+    "key":"d32afd00b2c4bc74ac2e2548f97bc89c6df6fd3785f7125a67a933bdf6904d01",
+    "password":"redis_is_really_secure",
+    "queue":"jobs"
+}

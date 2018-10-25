@@ -1,0 +1,33 @@
+extends layout.pug
+
+block include
+	link(rel='stylesheet' href='/style/main.css')
+	link(rel="stylesheet" href="/style/fontawesome-free-5.3.1/css/all.css")
+
+
+
+block body
+	div.error-wrapper
+		br
+		br
+		h1
+			i(class="fas fa-exclamation-triangle")
+			| &nbsp;Error
+		h2 Code:
+			if status
+				| &nbsp;#{status}
+			else
+				| &nbsp;Unknown
+
+			div.error-msg
+				| Message:
+				if msg
+					p #{msg}
+				else
+					p No message!
+				a(href="/")
+					i(class="fas fa-chevron-circle-left")
+					| &nbsp;Go home
+					
+			
+			

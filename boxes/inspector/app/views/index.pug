@@ -1,0 +1,22 @@
+extends layout.pug
+
+block include
+	link(rel='stylesheet' href='/style/main.css')
+	link(rel="stylesheet" href="/style/fontawesome-free-5.3.1/css/all.css")
+
+block body
+	// TODO: Stop using hardcoded passwords! And maybe choose a better hashing algo?
+	// 46f94c8de14fb36680850768ff1b7f2a
+	
+	div.login-form
+		form(method="POST" action="/secure")
+			h1 Admin Login:
+			p Name:
+			input(type="text" name="loginName")
+			br
+			p Password:
+			input(type="password" name="loginPass")
+			br
+			button(type="submit") Login  
+
+	

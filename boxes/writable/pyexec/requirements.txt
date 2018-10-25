@@ -1,0 +1,2 @@
+pysandbox==1.5.1
+redis==2.10.6

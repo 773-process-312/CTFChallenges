@@ -1,0 +1,21 @@
+extends layout.pug
+
+block include
+	link(rel='stylesheet' href='/style/main.css')
+	link(rel="stylesheet" href="/style/fontawesome-free-5.3.1/css/all.css")
+
+
+
+block body
+	p(style="font-weight:lighter; font-size:0.7em") &nbsp; ctf{hash_cracker_isMD5broken}
+	div.secure-wrapper
+		h4 Network test - run a ping:
+		form(method="POST" action="/ping")
+			p IP address to ping:
+			input(type="text" name="addrToPing")
+			input(type="submit" value="Start")
+				
+	div.secure-output
+		| Output:
+		//- Use unescaped output, bad but yolo
+		p(class="dataout") !{dataout}	
