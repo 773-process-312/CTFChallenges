@@ -3,7 +3,7 @@
 Continuing on from our shell session, we need to have a quick look at
 `/opt/pyexec.py`, which is mentioned on the glances panel.
 
-Source can be read <a href=""https://github.com/CovHackSoc/CTFChallenges/blob/master/boxes/writable/pyexec/pyexec.py>here</a>
+Source can be read <a href="https://github.com/CovHackSoc/CTFChallenges/blob/master/boxes/writable/pyexec/pyexec.py">here</a>
 
 This mentions a file called `./etc/jobs.json`, which contains:
 ```
